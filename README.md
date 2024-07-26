@@ -10,7 +10,7 @@ We include two quickstart demo scripts:
 
 - ``DEMO_RUN_E-LDA.py`` *estimates an E-LDA model, analyzes results, and saves them in convenient CSVs.*
 
-**To run E-LDA on your own text dataset**, then you can **either** replace the ``docs_raw`` object in ``DEMO_CLEAN_PREPARE_TEXT.py`` with your own list of strings (each string is the text of one of your documents). **Alternatively, if you have already cleaned your texts** and removed stopwords and punctuation, etc., then you can **skip loading many text cleaning packages** and start with the line ``build_docword_matrix(docs)`` in ``DEMO_CLEAN_PREPARE_TEXT.py``, where ``docs`` is a list of strings (each string is a cleaned text of one of your documents). After ``DEMO_CLEAN_PREPARE_TEXT.py`` has completed, then run ``DEMO_RUN_E-LDA.py`` to load the saved doc-word matrix and estimate an E-LDA model.
+**To run E-LDA on your own text dataset**, then you can **either** replace the ``docs_raw`` object in ``DEMO_CLEAN_PREPARE_TEXT.py`` with your own list of strings (each string is the text of one of your documents), or **alternatively, if you have already cleaned your texts** and removed stopwords and punctuation, etc., then you can **skip loading many text cleaning packages** and start with the line ``build_docword_matrix(docs)`` in ``DEMO_CLEAN_PREPARE_TEXT.py``, where ``docs`` is a list of strings (each string is a cleaned text of one of your documents). After ``DEMO_CLEAN_PREPARE_TEXT.py`` has completed, then run ``DEMO_RUN_E-LDA.py`` to load the saved doc-word matrix and estimate an E-LDA model.
 
 
 
