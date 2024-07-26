@@ -41,8 +41,8 @@ We provide conveniently preprocessed versions (with the code we used to preproce
 
 - **NewsGroups** - *Ken Lang. Newsweeder: Learning to filter netnews. In Machine learning proceedings 1995, pages 331–339. Elsevier, 1995.*
 
-We also include a library of numerous helper functions (in the ``/src/text_cleaning_util.py``, ``/src/save_load_docs_util.py``, ``/src/ELDA_matrix_building_util.py``, and ``src/coherence.py`` Python files) that efficiently compute document-word matrices (in an efficient index format) and normalized UMass coherence (used to replicate the coherence plots for Experiments Set 2 in Section 9 of the paper), as well as many text preprocessing helper functions. 
+We also include a library of numerous helper functions (in the ``/src/text_cleaning_util.py``, ``/src/save_load_docs_util.py``, ``/src/ELDA_matrix_building_util.py``, and ``src/coherence.py`` Python scripts) that efficiently compute document-word matrices (in an efficient index format) and normalized UMass coherence (used to replicate the coherence plots for Experiments Set 2 in Section 9 of the paper), as well as many text preprocessing helper functions. 
 
-We also include **Gensim's MALLET Python wrapper file**, which has been updated to run with new NumPy, etc. libraries on ARM chips. 
+We also include **Gensim's MALLET Python wrapper file**, which has been updated to run with new NumPy, etc. libraries on ARM chips. This is useful only if you want to replicate our experiments that compare E-LDA to MALLET's Gibbs samplers.
 
 To run baselines, you will need an installation of **Java** and the **MALLET** Java topic modeling library (*Andrew Kachites McCallum. Mallet: A machine learning for languagetoolkit.*) For details, see **https://mimno.github.io/Mallet/topics.html**
