@@ -6,7 +6,7 @@ This repository contains Python implementations of **Exemplar-LDA** and its asso
 ### Quick Start
 We include two quickstart demo scripts: 
 
-- ``DEMO_CLEAN_PREPARE_TEXT.py`` *downloads a small sample dataset, removes stopwords/punctuation, and builds the doc-word matrix;*
+- ``DEMO_CLEAN_PREPARE_TEXT.py`` *downloads a demo dataset, removes stopwords/punctuation, and builds the doc-word matrix;*
 
 - ``DEMO_RUN_E-LDA.py`` *estimates an E-LDA model, analyzes results, and saves them in convenient CSVs.*
 
