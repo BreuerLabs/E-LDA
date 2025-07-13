@@ -1,10 +1,27 @@
 # Exemplar-LDA
 
 
-This repository contains Python implementations of **Exemplar-LDA** and its associated algorithms, experiments, baselines, and datasets. 
+This repository contains Python implementations of **Exemplar-LDA** and its associated algorithms, experiments, baselines, and datasets from the **ICML'25** paper:   
+
+
+
+**E-LDA: Toward Interpretable LDA Topic Models with Strong Guarantees in Logarithmic Parallel Time**
+
+**Link:** [https://arxiv.org/pdf/2506.07747?](https://arxiv.org/pdf/2506.07747?)
+
+**Citation:**
+
+	@inproceedings{breuerlda,
+	  title={E-LDA: Toward Interpretable LDA Topic Models with Strong Guarantees in Logarithmic Parallel Time},
+	  author={Breuer, Adam},
+	  booktitle={International Conference on Machine Learning},
+	  year={2025}
+	}
+
+
 
 ### Algorithms
-Our implementations of the main algorithms in the paper are included in the ``/src/Exemplar_LDA.py`` function library. The function ``exemplar_LDA(...)`` implements the following algorithms and calls the associated subroutines described in the paper:
+Our implementations of the main serial (nonparallel) algorithms in the paper are included in the ``/src/Exemplar_LDA.py`` function library. The function ``exemplar_LDA(...)`` implements the following algorithms and calls the associated subroutines described in the paper:
 
 - **FastInitialize-E-LDA**
 
