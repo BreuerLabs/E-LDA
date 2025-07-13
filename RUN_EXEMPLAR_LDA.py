@@ -21,8 +21,8 @@ NUM_TOPWORDS_TO_CHECK_COHERENCE_VEC = [5,10,15,20,25] # To replicate data for pl
 
 DO_JUST_100_TEXTS_FOR_TESTING = False
 dataname = 'CONGRESS'
-dataname = '20NEWSGROUPSPOL'
-dataname = 'REUTERS'
+# dataname = '20NEWSGROUPSPOL'
+# dataname = 'REUTERS'
 
 # TOPIC_GENERATOR = 'LOG_DOTPROD' # Called RAW-UMASS in the paper
 # TOPIC_GENERATOR = 'RAW_DOTPROD' # Called EXP-UMASS in the paper
